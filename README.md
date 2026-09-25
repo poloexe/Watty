@@ -1,51 +1,19 @@
 # Watty
 
-A lightweight, quality-of-life tweaks for WhatsApp.
-
----
+iOS tweak for WhatsApp.
 
 ## Installation
 
-### Jailbroken devices (iOS 15–18)
+### Jailbroken (Dopamine, palera1n, etc)
 
-Download the latest `.deb`:
-   **[here](https://github.com/poloexe/Watty/releases/latest)**
+Download `Watty.deb` from the [latest release](../../releases/latest) and install via your favorite package manager.
 
-Rootful and rootless are both supported.
+### Jailed Devices
 
-### Sideloaded devices
+1. Download `Watty.dylib` from the [latest release](../../releases/latest)
+2. Inject dylib into the WhatsApp IPA using **Feather** or **Sideloadly**
+3. Repack and install the patched IPA
 
-Get the latest signed-ready IPA from our Telegram channel:
-   **[here](https://t.me/+rh-GZahMajNhYzRk)**
+## Supported
 
-Sign and install with **Feather**, **Sideloadly**, **AltStore**, or **eSign** using your own Apple ID
-
-> **Push notifications:** Only works on Trollstore or Jailbroken devices, Sideloaded methods can use linking device method
-
----
-
-## Compatibility
-
-| Component | Supported |
-|---|---|
-| iOS | 15.0 – 18.x | 26+ not tested
-| Architecture | arm64 (arm64e untested) |
-| Jailbreak | Dopamine, palera1n, etc. |
-| Sideloading | Feather, Sideloadly, AltStore, eSign, TrollStore |
-| WhatsApp | Latest from App Store / TestFlight |
-
-Tested against the current WhatsApp release. If you're on an older WhatsApp version and something breaks, update WhatsApp first.
-
-
-## FAQ
-
-**Does Watty work alongside other WhatsApp tweaks?**
-No. Running multiple WhatsApp tweaks simultaneously is unsupported and might causes crashes.
-
-**Push notifications stopped working after sideloading.**
-See the note in the Sideloaded section above. This is a limitation of Apple's entitlement system, not Watty.
-
-
-## Credits
-
-Built by [PoloDTomoato](https://github.com/poloexe).
+- iOS 14+
