@@ -6,7 +6,7 @@ iOS tweak for WhatsApp.
 
 ### Jailbroken (Dopamine, palera1n, etc)
 
-Download `deb` from the [latest release](../../releases/latest) and install via your favorite package manager. both rootless and rootful is supported.
+Download `deb` from the [latest release](../../releases/latest) and install via your favorite package manager(rootless, rootful and roothide).
 
 ### Jailed Devices
 Get the `dylib` from the [latest release](../../releases/latest), inject using feather, sidelaodly, ryuksign, etc.
