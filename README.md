@@ -12,7 +12,7 @@ Download `deb` from the [latest release](../../releases/latest) and install via 
 Get the `dylib` from the [latest release](../../releases/latest), inject using feather, sidelaodly, ryuksign, etc.
 
 ### Features (For now)
-- **Privacy**: Hide read receipt, disable typing indicator, disable recording indicator, freeze last seen
+- **Privacy**: Hide read receipt, disable typing indicator, disable recording indicator, block incoming calls, freeze last seen
 
 - **Chats & Media:** Unlimited View Once, Keep deleted messages, Show edited messages, Allow screenshots in view once, Unlimited pin chats, New chat menu, Video to Voice note, Confirm before calling
 
